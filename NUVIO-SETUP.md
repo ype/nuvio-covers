@@ -2,6 +2,8 @@
 
 Copy each value from its code block into the Nuvio website: **Collections → New collection**, then **Add folder** for each folder.
 
+**Paste the list URL or numeric ID directly. Don't press Search or Autofill:** they can pick another user's list with the same name.
+
 **Settings that are the same for every folder:**
 
 - Source: **Trakt → Trakt List**
@@ -41,6 +43,10 @@ The Criterion Collection
 ```
 https://trakt.tv/users/yyppee/lists/the-criterion-collection-spines-1-678
 ```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37835951
+```
 Source 1 Display Title:
 ```
 Spines 1–678
@@ -49,6 +55,10 @@ Spines 1–678
 **Source 2: Trakt List URL**
 ```
 https://trakt.tv/users/yyppee/lists/the-criterion-collection-spines-680-1344
+```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37835952
 ```
 Source 2 Display Title:
 ```
@@ -97,6 +107,10 @@ Eclipse
 ```
 https://trakt.tv/users/yyppee/lists/criterion-eclipse-series
 ```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37836057
+```
 
 **Cover (Landscape)**
 ```
@@ -137,6 +151,10 @@ Box Sets
 **Trakt List URL**
 ```
 https://trakt.tv/users/yyppee/lists/criterion-box-sets
+```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37836140
 ```
 
 **Cover (Landscape)**
@@ -179,6 +197,10 @@ BFI Critics
 ```
 https://trakt.tv/users/yyppee/lists/bfi-critics-greatest-films
 ```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37836091
+```
 
 **Cover (Landscape)**
 ```
@@ -219,6 +241,10 @@ BFI Directors
 **Trakt List URL**
 ```
 https://trakt.tv/users/yyppee/lists/bfi-directors-greatest-films
+```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37836092
 ```
 
 **Cover (Landscape)**
@@ -279,6 +305,10 @@ A24
 ```
 https://trakt.tv/users/yyppee/lists/a24
 ```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37835942
+```
 
 **Cover (Landscape)**
 ```
@@ -319,6 +349,10 @@ NEON
 **Trakt List URL**
 ```
 https://trakt.tv/users/yyppee/lists/neon-films
+```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37838387
 ```
 
 **Cover (Landscape)**
@@ -361,6 +395,10 @@ GKIDS & Ghibli
 ```
 https://trakt.tv/users/yyppee/lists/gkids
 ```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37838386
+```
 
 **Cover (Landscape)**
 ```
@@ -401,6 +439,10 @@ Arrow Video
 **Trakt List URL**
 ```
 https://trakt.tv/users/yyppee/lists/arrow-video
+```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37838525
 ```
 
 **Cover (Landscape)**
@@ -461,6 +503,10 @@ Picked for You
 ```
 https://trakt.tv/users/yyppee/lists/picked-for-you
 ```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37838403
+```
 
 **Cover (Landscape)**
 ```
@@ -501,6 +547,10 @@ Reference Showcase
 **Trakt List URL**
 ```
 https://trakt.tv/users/yyppee/lists/4k-hdr-atmos-showcase
+```
+Numeric list ID (paste this instead of the URL if the folder shows the wrong films):
+```
+37835898
 ```
 
 **Cover (Landscape)**
