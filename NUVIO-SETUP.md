@@ -534,4 +534,4 @@ Tick **Enable focus GIF** and **Hide folder title**. Cover Emoji: 🎞️ (fallb
 
 ---
 
-If Nuvio keeps showing an old image after a cover changes, re-save the collection or clear Nuvio's image cache.
+**If the TV doesn't pick up changes from the web:** force-stop Nuvio (TV Settings → Apps → Nuvio → Force stop), then **Clear cache** (not Clear data) and reopen it. The same fix applies when an old cover image is still showing.
