@@ -6,7 +6,8 @@ Copy each value from its code block into the Nuvio website: **Collections → Ne
 
 - Source: **Trakt → Trakt List**
 - Type: **Movie**
-- Sort By: **Default**, which keeps spine order and poll rank
+- Sort: **List Order**, Direction **Ascending**, which keeps spine order and poll rank
+- Display Title: replace the default "Trakt List https://…" with the folder name
 - Tile Shape: **Landscape**. If you choose **Portrait**, use the "Portrait cover" URL instead.
 
 > Test one folder first. All the lists are private: if a folder comes up empty while you are signed in to Trakt in Nuvio, the lists need to be made public.
@@ -29,48 +30,41 @@ Film School
 https://raw.githubusercontent.com/ype/nuvio-covers/main/collection-film-school-backdrop.jpg
 ```
 
-### Folder: Criterion I
+### Folder: The Criterion Collection (one folder, two sources)
 
 **Folder Title**
 ```
-Criterion I
+The Criterion Collection
 ```
 
-**Trakt List URL**
+**Source 1: Trakt List URL** (add this first)
 ```
 https://trakt.tv/users/yyppee/lists/the-criterion-collection-spines-1-678
 ```
-
-**Cover (Landscape)**
+Source 1 Display Title:
 ```
-https://raw.githubusercontent.com/ype/nuvio-covers/main/criterion-1-landscape.jpg
-```
-
-**Portrait cover (optional)**
-```
-https://raw.githubusercontent.com/ype/nuvio-covers/main/criterion-1-poster.jpg
+Spines 1–678
 ```
 
-### Folder: Criterion II
-
-**Folder Title**
-```
-Criterion II
-```
-
-**Trakt List URL**
+**Source 2: Trakt List URL**
 ```
 https://trakt.tv/users/yyppee/lists/the-criterion-collection-spines-680-1344
 ```
+Source 2 Display Title:
+```
+Spines 680–1344
+```
+
+For both sources, set Sort to **List Order** and Direction to **Ascending**.
 
 **Cover (Landscape)**
 ```
-https://raw.githubusercontent.com/ype/nuvio-covers/main/criterion-2-landscape.jpg
+https://raw.githubusercontent.com/ype/nuvio-covers/main/criterion-landscape.jpg
 ```
 
 **Portrait cover (optional)**
 ```
-https://raw.githubusercontent.com/ype/nuvio-covers/main/criterion-2-poster.jpg
+https://raw.githubusercontent.com/ype/nuvio-covers/main/criterion-poster.jpg
 ```
 
 ### Folder: Eclipse
