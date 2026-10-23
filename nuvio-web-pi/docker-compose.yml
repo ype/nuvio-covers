@@ -1,0 +1,20 @@
+services:
+  nuvio-web:
+    build:
+      context: .
+      args:
+        NUVIO_SUPABASE_URL: ${NUVIO_SUPABASE_URL:-https://api.nuvio.tv}
+        NUVIO_SUPABASE_ANON_KEY: ${NUVIO_SUPABASE_ANON_KEY:?set it in .env}
+        NUVIO_WEB_COMMIT: ${NUVIO_WEB_COMMIT:-c140f87c007f092630efaa0f12fdc5afbb144d7d}
+    image: nuvio-web-pi:local
+    container_name: nuvio-web
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    read_only: true
+    tmpfs:
+      - /config
+      - /data
+    cap_drop: [ALL]
+    cap_add: [NET_BIND_SERVICE]   # caddy's binary carries this file capability; without it exec fails
+    security_opt: [no-new-privileges:true]

@@ -1,0 +1,22 @@
+# Plain HTTP inside the LAN/container; Tailscale Serve adds HTTPS in front of it.
+:8080 {
+	root * /srv
+	encode zstd gzip
+
+	# The service worker and app shell must always be revalidated so updates arrive.
+	@nocache path /sw.js /registerSW.js /index.html /manifest.webmanifest /
+	header @nocache Cache-Control "no-cache"
+	# Hashed build assets never change.
+	@assets path /assets/*
+	header @assets Cache-Control "public, max-age=31536000, immutable"
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+
+	# Single-page app: unknown paths fall back to the app shell.
+	try_files {path} /index.html
+	file_server
+}
